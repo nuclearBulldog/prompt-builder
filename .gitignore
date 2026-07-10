@@ -1,0 +1,5 @@
+# Machine-local Claude Code state — never ship
+.claude/settings.local.json
+
+# Generated prompt output from testing the plugin in this repo
+prompts/

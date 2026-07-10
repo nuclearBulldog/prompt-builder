@@ -1,0 +1,9 @@
+{
+  "name": "prompt-builder",
+  "description": "Interviews you about a development task (build, debug, or refactor/review), then generates a structured, copy-pasteable prompt for AI coding tools — a Markdown prompt plus an agent-dispatchable JSON companion, written to prompts/.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Caleb Dellow"
+  },
+  "keywords": ["prompts", "prompt-engineering", "workflow", "interview"]
+}

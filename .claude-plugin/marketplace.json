@@ -1,0 +1,14 @@
+{
+  "name": "prompt-builder",
+  "description": "Marketplace for the prompt-builder plugin: interview-driven generation of structured AI coding prompts.",
+  "owner": {
+    "name": "Caleb Dellow"
+  },
+  "plugins": [
+    {
+      "name": "prompt-builder",
+      "source": "./",
+      "description": "Interview-driven generator of structured AI coding prompts — Markdown plus agent-dispatchable JSON, with orchestrated templates for complex tasks."
+    }
+  ]
+}

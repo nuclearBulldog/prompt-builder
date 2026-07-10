@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "p=$(grep -o '\"file_path\"[[:space:]]*:[[:space:]]*\"[^\"]*\"' | head -n1 | sed 's/.*\"\\([^\"]*\\)\"$/\\1/'); case \"$p\" in prompts/*.md|prompts/*.json|*/prompts/*.md|*/prompts/*.json) echo \"📄 prompt-builder: generated prompt written to $p\" ;; esac"
+          }
+        ]
+      }
+    ]
+  }
+}
